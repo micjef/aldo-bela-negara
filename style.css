@@ -1,0 +1,46 @@
+/*ambil font dari google*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*ukuran font default itu 16px(1em)*/
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;/*atur font family */
+}
+
+/*hr*/
+.hr-30{
+    width: 30%;
+    margin: -20px 0;
+    height: 3px;
+    background-color: #e25822;
+    border: none;
+    border-radius: 5px;
+  }
+
+/*text*/
+.description{
+    line-height: 30px;
+    font-size: 16px;
+    text-align: left;
+    color: #f2f2f2;
+    font-weight: 400;
+  }
+  .title{
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .lead{
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+.about-more{
+    margin: 0 auto 100px;
+    width: 80%;
+    max-width: 1440px;
+  }
+  .about-more > .container > .description{
+    color: #323232;
+  }
